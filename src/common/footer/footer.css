@@ -1,0 +1,7 @@
+.footer-container {
+  height: 15vh;
+  background-color: #5ab5fa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

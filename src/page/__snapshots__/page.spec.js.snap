@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="page Pending"
+>
+  <div
+    className="page-content"
+    onClick={[Function]}
+  >
+    <div>
+      1234
+    </div>
+    <div>
+      Pending
+    </div>
+  </div>
+</div>
+`;

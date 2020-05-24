@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Home
+  addTask={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "status": "Pending",
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  getTasks={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <div
+    className="tasklist"
+  >
+    <hr />
+    <div
+      className="button-container"
+    >
+      <button
+        className="button"
+        onClick={[Function]}
+        size="lg"
+      >
+        Add Item
+      </button>
+    </div>
+  </div>
+</Home>
+`;

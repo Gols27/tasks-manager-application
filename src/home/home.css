@@ -1,0 +1,20 @@
+.button {
+  background-color: #578f5f;
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.tasklist {
+  width: 100%;
+}

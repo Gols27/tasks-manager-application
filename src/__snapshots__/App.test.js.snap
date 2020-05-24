@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<BrowserRouter>
+  <Header />
+  <div
+    className="main-container"
+  >
+    <Switch>
+      <Route
+        exact={true}
+        path="/"
+      >
+        <Landing />
+      </Route>
+      <Route
+        path="/home"
+      >
+        <Connect(Home) />
+      </Route>
+      <Route
+        path="/login"
+      >
+        <Connect(Login) />
+      </Route>
+    </Switch>
+  </div>
+  <Footer />
+</BrowserRouter>
+`;

@@ -1,0 +1,23 @@
+.page {
+  height: 140px;
+  width: 140px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 0 5px 5px 0;
+}
+.Completed {
+  background-color: #dceab7;
+  box-shadow: 3px 3px 3px #82bf73;
+}
+.Pending {
+  background-color: #fee5c9;
+  box-shadow: 3px 3px 3px #ea7676;
+}
+.page-content {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  justify-content: space-around;
+  cursor: pointer;
+}

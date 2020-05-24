@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with changed input 1`] = `
+<div
+  className="login-form"
+>
+  <form
+    name="login"
+    onSubmit={[Function]}
+  >
+     
+    <label
+      className="alert"
+    >
+       
+      something went wrong. Pleas try after sometime!
+       
+    </label>
+    <div>
+      <input
+        name="userId"
+        onChange={[Function]}
+        placeholder="username"
+        type="text"
+        value="Admin"
+      />
+    </div>
+    <div>
+      <input
+        name="password"
+        onChange={[Function]}
+        placeholder="password"
+        type="password"
+        value="Admin"
+      />
+    </div>
+    <button
+      className="button"
+      disabled={false}
+      size="lg"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
+
+exports[`renders with changed input 2`] = `
+<Login
+  userLoginRequest={[MockFunction]}
+  users={
+    Object {
+      "userAuth": false,
+    }
+  }
+>
+  <div
+    className="login-form"
+  >
+    <form
+      name="login"
+      onSubmit={[Function]}
+    >
+       
+      <div>
+        <input
+          name="userId"
+          onChange={[Function]}
+          placeholder="username"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <input
+          name="password"
+          onChange={[Function]}
+          placeholder="password"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="button"
+        disabled={true}
+        size="lg"
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</Login>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="login-form"
+>
+  <form
+    name="login"
+    onSubmit={[Function]}
+  >
+     
+    <div>
+      <input
+        name="userId"
+        onChange={[Function]}
+        placeholder="username"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <input
+        name="password"
+        onChange={[Function]}
+        placeholder="password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="button"
+      disabled={true}
+      size="lg"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

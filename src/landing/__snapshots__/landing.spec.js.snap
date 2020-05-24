@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Landing>
+  <AppLoader>
+    <div
+      className="loader-container"
+    >
+      <div
+        className="loader"
+      />
+    </div>
+  </AppLoader>
+</Landing>
+`;
